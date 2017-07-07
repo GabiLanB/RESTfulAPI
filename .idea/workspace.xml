@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb4ee107-6718-4149-ad97-483efb17bead" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/controllers/movies.js" afterPath="$PROJECT_DIR$/public/controllers/movies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/movies.html" afterPath="$PROJECT_DIR$/public/views/movies.html" />
-    </list>
+    <list default="true" id="fb4ee107-6718-4149-ad97-483efb17bead" name="Default" comment="" />
     <ignored path="moviestore.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +64,8 @@
       <file leaf-file-name="movies.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/controllers/movies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.087478556">
-              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.4373928">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -805,8 +802,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/controllers/movies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.087478556">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.4373928">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding />
         </state>
       </provider>
