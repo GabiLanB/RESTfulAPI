@@ -1,7 +1,9 @@
 # RESTfulAPI
 MongoDB, Express, AngularJs, NodeJS
 
-- to run you need to use npm install
-- run on http://localhost:8080
+- in the download folder use Git Bash Here
+- run npm install
+- run node app or nodemon
+- http://localhost:8080
 
 
