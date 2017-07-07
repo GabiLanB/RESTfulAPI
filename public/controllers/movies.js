@@ -2,7 +2,6 @@ var myApp = angular.module('myApp');
 
 myApp.controller('MoviesController',['$scope', '$http', '$location', '$routeParams', function($scope, $http, $location, $routeParams){
     console.log('Movies Controller loaded...');
-
     $scope.getMovies = function(){
         $http.get('/api/movies').then(function(response){
             $scope.movies = response.data;

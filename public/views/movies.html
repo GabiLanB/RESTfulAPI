@@ -1,11 +1,18 @@
 <div class="panel panel-default" ng-init="getMovies()">
     <div class="panel-heading">
         <h2 class="panel-title">Latest Movies</h2>
-        <input ng-model="query" placeholder="Search" type="text"/><br>
+        <input ng-model="query" placeholder="Search" type="text"/>
+        <label>Order By:</label>
+        <select ng-model="sortMovie">
+            <option value="title">Name</option>
+            <option value="gender">Gender</option>
+            <option value="release">Release</option>
+            <option value="rating">Rating</option>
+        </select>
     </div>
     <div class="panel-body">
         <div class="row">
-            <div ng-repeat="movie in movies | filter:query"">
+            <div ng-repeat="movie in movies | filter:query | orderBy:sortMovie">
                 <div class="col-md-6">
                     <div class="col-md-6">
                         <h4>{{movie.title}}</h4>
