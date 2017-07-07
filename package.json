@@ -1,16 +1,16 @@
 {
-  "name": "movie",
+  "name": "moviestore",
   "version": "1.0.0",
   "description": "restful api adminme task",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies":{
-    "express": "*",
-    "body-parser": "*",
-    "mongoose": "*"
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.1"
   },
-  "author": "igabidev",
+  "author": "Adrian Gabriel Balan",
   "license": "ISC"
 }

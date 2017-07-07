@@ -1,6 +1,9 @@
 var myApp = angular.module('myApp',['ngRoute']);
-myApp.config(function($routeProvider){
-    $routeProvider.when('/',{
+myApp.config(['$routeProvider', '$locationProvider',
+    function($routeProvider, $locationProvider) {
+        $locationProvider.html5Mode(true);
+        $routeProvider
+        .when('/',{
             controller: 'MoviesController',
             templateUrl: 'views/movies.html'
         })
@@ -23,4 +26,4 @@ myApp.config(function($routeProvider){
         .otherwise({
            redirectTo:'/'
         });
-});
+}]);

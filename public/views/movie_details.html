@@ -1,4 +1,4 @@
-<a href="#/movies">Go Back</a>
+<a href="/movies">Go Back</a>
 <div class="panel panel-default" ng-init="getMovie()">
     <div class="panel-heading">
         <h3 class="panel-title">{{movie.title}}</h3>
@@ -21,6 +21,6 @@
     </div>
 </div>
 <div class="pull-right">
-    <a href="#/movies/edit/{{movie._id}}">Edit</a> |
+    <a href="/movies/edit/{{movie._id}}">Edit</a> |
     <a href="#" ng-click="removeMovie(movie._id)">Delete</a>
 </div>
