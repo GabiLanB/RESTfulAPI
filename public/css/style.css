@@ -4,3 +4,16 @@ img{
 .btn-default{
     margin-bottom: 10px;
 }
+.panel-title{
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+.panel-heading input{
+    margin: 5px;
+    padding: 3px;
+    border-radius: 10px;
+}
+.details .panel-body .btn.btn-primary{
+    margin-left: 20px;
+}

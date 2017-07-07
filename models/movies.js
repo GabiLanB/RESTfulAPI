@@ -15,8 +15,7 @@ var moviesSchema = mongoose.Schema({
         required: true
     },
     rating:{
-        type: String,
-        required: true
+        type: String
     },
     released:{
         type: String
