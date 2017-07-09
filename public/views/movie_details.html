@@ -13,7 +13,7 @@
                 <ul class="list-group">
                     <li class="list-group-item">Genre: {{movie.genre}}</li>
                     <li class="list-group-item">Rating: {{movie.rating}}</li>
-                    <li class="list-group-item">Released: {{movie.released}}</li>
+                    <li class="list-group-item">Released: {{movie.released | date:'MM/dd/yyyy'}}</li>
                 </ul>
             </div>
             <a target="_blank" href="{{movie.trailer}}" class="btn btn-primary">See Trailer</a>
