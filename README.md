@@ -9,7 +9,7 @@ Steps :
   - npm install
   - npm install -g nodemon
 - populate the database
-  - Open CDM (Run as administrator) and navigate to MongoDB/Server/cd 3.0/bin/mongo
+  - Open CDM (Run as administrator) and navigate to MongoDB/Server/3.4/bin/mongo
   - type "use moviestore" to create a new database
   - "db.createCollection(movies)" to create a new collection
   - populate: "db.movies.insert({ some data })" - open the datamovies.txt for a quick add info
