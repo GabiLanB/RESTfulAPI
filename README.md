@@ -15,6 +15,7 @@ Steps :
   - "use moviestore" to create a new database
   - "db.createCollection('movies')" to create a new collection
   - populate: "db.movies.insert({ some data })" - open the datamovies.txt for a quick add info
+    - from datamovies.txt you have to run line by line
   - see the results with "db.movies.find().pretty()"
 - In the RESTfulAPI download folder open Git Bash Here and run:
   - npm install
