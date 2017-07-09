@@ -3,10 +3,10 @@ MongoDB, Express, AngularJs, NodeJS
 
 Steps : 
 - Download & Install Nodejs https://nodejs.org/
-- Download & Install MongoDB https://www.mongodb.com/ (C:\MongoDB)
-  - in MongoDB\Server\3.4 create a folder "log" and a folder "data\db"
-  - Open CMD (Run as administrator) and navigate to MongoDB\Server\3.4\bin 
-  - run "mongod --directoryperdb --dbpatch C:\MongoDB\data\db --logpath C:\MongoDB\log\mongo.log --logappend --rest --install"
+- Download & Install MongoDB https://www.mongodb.com/ (Custom  - C:\MongoDB\ )
+  - in MongoDB\ create a folder "log" and a folder "data\db"
+  - Open CMD (Run as administrator) and navigate to MongoDB\bin 
+  - run "mongod --directoryperdb --dbpath C:\MongoDB\data\db --logpath C:\MongoDB\log\mongo.log --logappend --rest --install"
   - run "net start MongoDB" (now MongoDB it's running in the background like a service)
 - Also is good to have Git Bash https://git-scm.com/
 - populate the database
