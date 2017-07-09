@@ -15,10 +15,12 @@ var moviesSchema = mongoose.Schema({
         required: true
     },
     rating:{
-        type: String
+        type: Number,
+        required: true
     },
     released:{
-        type: String
+        type: Date,
+        required: true
     },
     imgUrl:{
         type: String,

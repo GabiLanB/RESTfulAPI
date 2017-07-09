@@ -16,6 +16,7 @@ myApp.config(['$routeProvider', '$locationProvider',
             templateUrl: 'views/movie_details.html'
         })
         .when('/movies/add',{
+            Url: "/movies/add",
             controller: 'MoviesController',
             templateUrl: 'views/add_movie.html'
         })
