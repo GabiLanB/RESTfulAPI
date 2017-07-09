@@ -6,7 +6,7 @@ Steps :
 - Download & Install MongoDB https://www.mongodb.com/
 - Also is good to have Git Bash https://git-scm.com/
 - populate the database
-  - Open CDM (Run as administrator) and navigate to MongoDB/Server/3.4/bin run "mongo"
+  - Open CDM (Run as administrator) and navigate to MongoDB\Server\3.4\bin and run "mongo"
   - type "use moviestore" to create a new database
   - "db.createCollection(movies)" to create a new collection
   - populate: "db.movies.insert({ some data })" - open the datamovies.txt for a quick add info
