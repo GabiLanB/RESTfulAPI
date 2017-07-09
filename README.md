@@ -12,8 +12,8 @@ Steps :
 - populate the database
   - in CMD MongoDB\Server\3.4\bin run "mongo" (now you are in the shell :) )
   - run "show dbs" to see the databases 
-  - type "use moviestore" to create a new database
-  - db.createCollection("movies)" to create a new collection
+  - "use moviestore" to create a new database
+  - "db.createCollection('movies')" to create a new collection
   - populate: "db.movies.insert({ some data })" - open the datamovies.txt for a quick add info
   - see the results with "db.movies.find().pretty()"
 - In the RESTfulAPI download folder open Git Bash Here and run:
