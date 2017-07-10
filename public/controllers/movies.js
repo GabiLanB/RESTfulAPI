@@ -1,7 +1,7 @@
 var myApp = angular.module('myApp');
 
-myApp.controller('MoviesController',['$scope', '$http', '$location', '$routeParams','$filter',
-    function($scope, $http, $location, $routeParams, $filter){
+myApp.controller('MoviesController',['$scope', '$http', '$location', '$routeParams',
+    function($scope, $http, $location, $routeParams){
     console.log('Movies Controller loaded...');
     $scope.getMovies = function(){
         $http.get('/api/movies').then(function(response){
@@ -50,6 +50,7 @@ myApp.controller('MoviesController',['$scope', '$http', '$location', '$routePara
 
 myApp.filter('startFrom', function() {
     return function(input, start) {
+        if (!input || !input.length) { return; }
         start = +start; //parse to int
         return input.slice(start);
     }
