@@ -10,7 +10,7 @@ Steps :
   - run "net start MongoDB" (now MongoDB it's running in the background like a service)
 - Also is good to have Git Bash https://git-scm.com/
 - populate the database
-  - in CMD MongoDB\Server\3.4\bin run "mongo" (now you are in the shell :) )
+  - in CMD MongoDB\bin run "mongo" (now you are in the shell :) )
   - run "show dbs" to see the databases 
   - "use moviestore" to create a new database
   - "db.createCollection('movies')" to create a new collection
