@@ -38,8 +38,6 @@ myApp.controller('MoviesController',['$scope', '$http', '$location', '$routePara
 
         $scope.currentPage = 0;
         $scope.pageSize = 2;
-        $scope.data = $scope.movies;
-        console.log('Data: ',$scope.data);
         $scope.q = '';
 
         $scope.numberOfPages=function(){
