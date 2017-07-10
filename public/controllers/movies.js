@@ -1,10 +1,12 @@
 var myApp = angular.module('myApp');
 
-myApp.controller('MoviesController',['$scope', '$http', '$location', '$routeParams', function($scope, $http, $location, $routeParams){
+myApp.controller('MoviesController',['$scope', '$http', '$location', '$routeParams','$filter',
+    function($scope, $http, $location, $routeParams, $filter){
     console.log('Movies Controller loaded...');
     $scope.getMovies = function(){
         $http.get('/api/movies').then(function(response){
             $scope.movies = response.data;
+            console.log($scope.movies);
         });
     }
 
@@ -33,4 +35,22 @@ myApp.controller('MoviesController',['$scope', '$http', '$location', '$routePara
             window.location.href = '#/movies';
         });
     }
+
+        $scope.currentPage = 0;
+        $scope.pageSize = 2;
+        $scope.data = $scope.movies;
+        console.log('Data: ',$scope.data);
+        $scope.q = '';
+
+        $scope.numberOfPages=function(){
+            return Math.ceil($scope.getData().length/$scope.pageSize);
+        }
+
 }]);
+
+myApp.filter('startFrom', function() {
+    return function(input, start) {
+        start = +start; //parse to int
+        return input.slice(start);
+    }
+});
